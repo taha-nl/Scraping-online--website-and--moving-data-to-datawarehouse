@@ -28,5 +28,5 @@ In this step we scraped the website using selenium webdriver and store the data 
 * Opt for a star schema
 ![Capture](https://user-images.githubusercontent.com/89319105/228092117-46185fed-9d2e-4e5a-8573-5958e976ac09.PNG)
 * using a postgres container
-`docker run --name my-postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres`
-`docker exec -it my-postgres psql  -U postgres`
+  -`docker run --name my-postgres -e POSTGRES_PASSWORD=password -p 5432:5432 -d postgres`
+  -`docker exec -it my-postgres psql  -U postgres`
